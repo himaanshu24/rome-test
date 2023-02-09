@@ -1,0 +1,30 @@
+{
+  "name": "rome-test",
+  "version": "0.0.1",
+  "description": "Testing rome tools",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0"
+  },
+  "scripts": {
+    "lint:js": "npx rome check .",
+    "format:js": "npx rome format .",
+    "fix:js": "npx rome format . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himaanshu24/rome-test"
+  },
+  "author": "Himashu Kumar",
+  "devDependencies": {
+    "rome": "^11.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 10"
+  ],
+  "packageName": "app_storefront_base",
+  "volta": {
+    "node": "18.12.1"
+  }
+}
